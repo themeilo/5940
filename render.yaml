@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: monitor5940g
+    env: python
+    buildCommand: ""
+    startCommand: "python monitor_5940g_web.py"
